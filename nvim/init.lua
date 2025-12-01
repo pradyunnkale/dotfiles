@@ -1,0 +1,5 @@
+require("pack")
+require("set")
+require("keymaps")
+require("plugins.lsp")
+require("plugins.cmp")
