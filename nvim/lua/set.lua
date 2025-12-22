@@ -9,6 +9,7 @@ vim.o.guicursor = ""
 
 vim.o.background = "dark"
 vim.cmd.colorscheme("vague")
+vim.cmd(":set foldmethod=marker")
 
 vim.o.termguicolors = true
 vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")

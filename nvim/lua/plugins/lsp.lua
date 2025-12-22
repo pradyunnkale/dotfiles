@@ -1,4 +1,4 @@
-vim.lsp.enable({ "lua_ls", "clangd", "pyright", "asm_lsp", "rust_analyzer" })
+vim.lsp.enable({ "lua_ls", "clangd", "pyright", "asm_lsp", "rust_analyzer", "cmake" })
 vim.lsp.config("lua_ls", {
 	settings = {
 		Lua = {
@@ -8,6 +8,8 @@ vim.lsp.config("lua_ls", {
 		}
 	}
 })
+
+vim.lsp.config('cmake', {})
 
 vim.diagnostic.config({
 	virtual_text = {
